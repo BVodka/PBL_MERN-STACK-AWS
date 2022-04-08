@@ -63,11 +63,22 @@
 ### create a routes directory
 
     `mkdir routes && cd routes && touch api.js && nano api.js`
+
+### Create MongoDB connection allow connection from everywhere
+
+   - `DB ='mongodb+srv://user:password@cluster0.chiik.mongodb.net/Todo.todo?retryWrites=true&w=majority'`
 ### Create Post and Get Requests on Postman
    - ![Postman Get Request](./images/Capture-GetRequest.JPG)
    - ![Postman Post Request](./images/Capture-PostRequest.JPG)  
 
+### Solve create react app error
+   - `npm cache clean -f && npm install -g n && sudo n stable`
+
+   - `npx create-react-app client`
+
+   - `npm install concurrently --save-dev && npm install nodemon --save-dev`
 ### Create React running and reset
+   - `npm run dev`
    - ![REACT running](./images/Capture-Reactrunningandreset.JPG)
    - ![Server running](./images/Capture-Server-Running.JPG)  
 ### Live Project
